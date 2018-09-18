@@ -60,14 +60,15 @@ body{
 	z-index: -1;
 	margin-top: -.9rem;
 }
-.info:after{
-	content: '';
-	position: absolute;
-	height: 2rem; 
-	width: 2rem;
-	background-color: #FFF;
-	margin-top: -1rem;
-	margin-left: 10rem;
+.info h1 {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: .8rem;
+}
+.info p{
+	text-align: center;
+	font-size: .67rem;
+	margin: 1rem;
 }
 
 footer{
@@ -77,10 +78,6 @@ footer{
 	.info{
 		left: -3rem;
 	}
-	.info:after{
-		margin-left: 6.5rem;
-	}
-
 }
 /*image resolution */
  @media only screen and (min-device-pixel-ratio: 1.5)(-o-min-device-pixel-ratio: 3/2),
