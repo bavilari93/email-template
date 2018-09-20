@@ -87,6 +87,8 @@
  .icons {
      width: 50%;
      height: 2rem;
+     display: flex;
+     justify-content: center;
  }
 
  footer a {
